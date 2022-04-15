@@ -25,4 +25,6 @@ public boolean equals(etudiant obj) {
 public int compareTo(etudiant e) {
 	if (this.note>=e.note) return 1;
 	if (this.note==e.note) return 0;
+	return -1;
+}
 }

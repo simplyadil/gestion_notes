@@ -18,4 +18,9 @@ public boolean add(etudiant e) {
 	return super.add(e);
    }
 }
-//redefinition
+//methode filtrer
+  public ListEtudiants filtrer(Condition c){
+	  if (c.estVrai(e)) {
+		  
+	  }
+  }
